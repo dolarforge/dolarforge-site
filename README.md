@@ -1,19 +1,14 @@
-# DolarForge Website v1.0
+# DolarForge Website v2.0
 
-Static website prepared for GitHub Pages.
+## Upload/update
+Upload all contents of this folder to the root of the `dolarforge-site` repository and commit the changes.
 
-## Upload
-Upload the contents of this folder to the root of the `dolarforge-site` repository.
+## Before running paid ads
+- Replace the placeholder contact email if necessary.
+- Add affiliate links only for products actually approved in your affiliate account.
+- Review the current seller and advertising rules.
+- Do not use guaranteed medical, sexual-performance, weight-loss, or cure claims.
+- Do not install a Meta Pixel or analytics until the privacy policy and consent approach are updated appropriately.
 
-## Important before advertising
-1. Replace the placeholder contact email in:
-   - contact.html
-   - privacy.html
-   - terms.html
-2. Verify the HopLink in `reviews/prodentim.html`.
-3. Review the affiliate program's current advertising rules.
-4. Do not add medical guarantees, cure claims, or fabricated testimonials.
-5. Configure any analytics/pixel only after updating the privacy notice and implementing any required consent controls.
-
-GitHub Pages URL:
+## Site
 https://dolarforge.github.io/dolarforge-site/
