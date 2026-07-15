@@ -84,3 +84,37 @@ footer{background:var(--navy);color:#d7e7e3;padding:38px 22px}.footer-inner{max-
 .progress-row{display:grid;grid-template-columns:180px 1fr 55px;gap:12px;align-items:center;margin:12px 0}.progress{height:10px;background:var(--line);border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;background:linear-gradient(90deg,var(--teal),var(--teal2));border-radius:999px}
 .reading-meta{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-top:12px}.mobile-cta{display:none}
 @media(max-width:900px){.article-grid{grid-template-columns:1fr}.sticky-side{position:static}.verdict-grid{grid-template-columns:1fr 1fr}.progress-row{grid-template-columns:120px 1fr 45px}.mobile-cta{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:50;text-align:center;box-shadow:0 12px 35px rgba(0,0,0,.18)}}
+
+
+/* DolarForge Standard Review Template v1.0 */
+.df-review{max-width:1080px;margin:auto;padding:18px 22px 74px}
+.df-review-layout{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:24px;align-items:start}
+.df-review-main{min-width:0}
+.df-review-side{position:sticky;top:92px}
+.df-toc{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
+.df-toc strong{display:block;margin-bottom:10px}
+.df-toc a{display:block;padding:6px 0;text-decoration:none;color:var(--muted);font-size:14px}
+.df-toc a:hover{color:var(--teal)}
+.df-summary{background:linear-gradient(145deg,var(--mint),var(--paper));border:1px solid var(--line);border-radius:21px;padding:25px}
+.df-summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.df-summary-item{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:13px}
+.df-summary-item small{display:block;color:var(--muted)}
+.df-summary-item strong{display:block;color:var(--ink);font-size:17px}
+.df-review-table{width:100%;border-collapse:collapse}
+.df-review-table th,.df-review-table td{padding:13px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+.df-review-table th{width:31%;color:var(--ink)}
+.df-evidence{background:var(--soft);border:1px solid var(--line);border-radius:15px;padding:19px;margin:14px 0}
+.df-evidence h3{margin-top:0}
+.df-callout{background:var(--mint);border-left:5px solid var(--teal);border-radius:13px;padding:18px;margin:18px 0}
+.df-score-row{display:grid;grid-template-columns:185px 1fr 52px;gap:12px;align-items:center;margin:12px 0}
+.df-score-bar{height:10px;background:var(--line);border-radius:999px;overflow:hidden}
+.df-score-bar span{display:block;height:100%;background:linear-gradient(90deg,var(--teal),var(--teal2));border-radius:999px}
+.df-meta{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-top:12px}
+.df-pending{background:#fff8e6;border:1px solid #efd796;color:#4c3b19;border-radius:14px;padding:18px;text-align:center}
+.df-mobile-cta{display:none}
+@media(max-width:900px){
+  .df-review-layout{grid-template-columns:1fr}
+  .df-review-side{position:static}
+  .df-summary-grid{grid-template-columns:1fr 1fr}
+  .df-score-row{grid-template-columns:120px 1fr 42px}
+}

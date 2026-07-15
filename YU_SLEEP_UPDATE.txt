@@ -1,0 +1,11 @@
+DolarForge YU Sleep Standard Review v1.0
+
+This package includes the complete site with:
+- Google Analytics on every HTML page
+- New reviews/yu-sleep.html
+- Shared standard review CSS
+- Updated sitemap
+
+IMPORTANT:
+The YU Sleep purchase CTA is intentionally disabled because no YU Sleep HopLink has been supplied.
+Generate the YU Sleep HopLink in ClickBank and send it to ChatGPT for insertion.
