@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#fff6ec"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+ <linearGradient id="p" x1="0" x2="1"><stop stop-color="#7a2c18"/><stop offset="1" stop-color="#d05d2d"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-opacity=".18"/></filter>
+</defs>
+<rect width="720" height="520" rx="34" fill="url(#bg)"/>
+<circle cx="585" cy="112" r="58" fill="#f5c26b" opacity=".8"/>
+<ellipse cx="355" cy="447" rx="165" ry="28" fill="#4e2518" opacity=".12"/>
+<g filter="url(#s)">
+ <path d="M256 118h214l-18 290H274z" fill="#fff"/>
+ <path d="M275 146h176l-12 214H287z" fill="url(#p)"/>
+ <rect x="284" y="91" width="158" height="46" rx="10" fill="#e8e2df"/>
+ <path d="M305 220c0-34 26-60 58-60 21 0 40 11 50 28-11-7-24-11-37-11-37 0-67 29-67 66 0 13 4 26 11 36-10-15-15-36-15-59Z" fill="#ffe6ad"/>
+ <text x="363" y="298" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">JAVA BURN</text>
+ <text x="363" y="328" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffe9dd">COFFEE SUPPLEMENT</text>
+ <rect x="306" y="375" width="114" height="16" rx="8" fill="#ded7d4"/>
+</g>
+<text x="360" y="487" text-anchor="middle" font-family="Arial" font-size="15" fill="#765e54">Editorial product illustration</text>
+</svg>
