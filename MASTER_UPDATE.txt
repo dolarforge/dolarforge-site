@@ -1,0 +1,13 @@
+DolarForge Master v4
+
+Included:
+- YU Sleep fully removed from Home, Reviews, Rankings, Sitemap, files and related links
+- Java Burn full review retained with active HopLink
+- Nitric Boost full review added in the same standard
+- Nitric Boost product illustration added
+- Google Analytics retained
+
+Nitric Boost purchase CTA remains disabled until its DolarForge HopLink is supplied.
+
+Note:
+ClickBank's current FemiCore listing requires affiliate approval, so Nitric Boost was prioritized as the next review.
