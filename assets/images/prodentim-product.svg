@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#edfdf9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+ <linearGradient id="b" x1="0" x2="1"><stop stop-color="#136f68"/><stop offset="1" stop-color="#24b7a2"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-opacity=".18"/></filter>
+</defs>
+<rect width="720" height="520" rx="34" fill="url(#bg)"/>
+<ellipse cx="360" cy="445" rx="160" ry="28" fill="#15343b" opacity=".12"/>
+<g filter="url(#s)">
+ <rect x="244" y="94" width="232" height="330" rx="34" fill="#fff"/>
+ <rect x="260" y="76" width="200" height="54" rx="16" fill="#e8efef"/>
+ <rect x="260" y="144" width="200" height="226" rx="12" fill="url(#b)"/>
+ <circle cx="360" cy="225" r="54" fill="#fff" opacity=".95"/>
+ <path d="M326 229c20 28 49 28 69 0" fill="none" stroke="#0f7f74" stroke-width="9" stroke-linecap="round"/>
+ <text x="360" y="305" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#fff">ProDentim</text>
+ <text x="360" y="336" text-anchor="middle" font-family="Arial" font-size="15" fill="#e8fffa">ORAL PROBIOTIC</text>
+ <rect x="285" y="385" width="150" height="18" rx="9" fill="#d7e4e2"/>
+</g>
+<text x="360" y="487" text-anchor="middle" font-family="Arial" font-size="15" fill="#60767c">Editorial product illustration</text>
+</svg>

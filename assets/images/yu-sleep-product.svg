@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#f0f2ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+ <linearGradient id="b" x1="0" x2="1"><stop stop-color="#25306f"/><stop offset="1" stop-color="#7550b8"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-opacity=".2"/></filter>
+</defs>
+<rect width="720" height="520" rx="34" fill="url(#bg)"/>
+<circle cx="570" cy="105" r="45" fill="#ffd873"/>
+<circle cx="591" cy="88" r="45" fill="#f4f6ff"/>
+<ellipse cx="360" cy="445" rx="145" ry="27" fill="#172246" opacity=".12"/>
+<g filter="url(#s)">
+ <rect x="271" y="108" width="178" height="300" rx="38" fill="#fff"/>
+ <rect x="295" y="70" width="130" height="74" rx="22" fill="#202a62"/>
+ <rect x="286" y="158" width="148" height="206" rx="16" fill="url(#b)"/>
+ <path d="M330 211a40 40 0 1 0 48 56 48 48 0 1 1-48-56Z" fill="#ffe38d"/>
+ <text x="360" y="310" text-anchor="middle" font-family="Arial" font-size="31" font-weight="700" fill="#fff">YU SLEEP</text>
+ <text x="360" y="337" text-anchor="middle" font-family="Arial" font-size="14" fill="#eeeaff">LIQUID SLEEP SUPPORT</text>
+ <rect x="305" y="379" width="110" height="15" rx="8" fill="#dce1ef"/>
+</g>
+<text x="360" y="487" text-anchor="middle" font-family="Arial" font-size="15" fill="#667080">Editorial product illustration</text>
+</svg>

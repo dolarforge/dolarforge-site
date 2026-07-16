@@ -1,0 +1,12 @@
+DolarForge Portal v2
+
+Included:
+- Portal-style homepage
+- Standardized ProDentim and YU Sleep review heroes
+- Product illustrations on home, reviews and ranking
+- Unified review components
+- Google Analytics retained
+- ProDentim HopLink active
+- YU Sleep affiliate button intentionally inactive until its HopLink is supplied
+
+Upload all package contents to the repository root and commit.
