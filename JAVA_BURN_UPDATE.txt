@@ -1,10 +1,13 @@
-Java Burn Review Standard v1
+DolarForge consolidated Java Burn package
 
 Included:
-- Complete reviews/java-burn.html
-- Java Burn product illustration
-- Home, reviews library and rankings updated
+- Full Java Burn review
+- Active Java Burn HopLink
+- Home updated
+- Reviews library updated
+- Rankings updated
 - Sitemap updated
+- Java Burn product illustration
 - Google Analytics retained
 
-The Java Burn purchase CTA is intentionally disabled until the correct DolarForge Java Burn HopLink is supplied.
+Upload all contents of this package to the repository root in one operation.
