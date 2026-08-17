@@ -7,7 +7,16 @@ document.addEventListener("DOMContentLoaded", () => {
     return filename.replace(/\.html$/i, "").replace(/[^a-z0-9]+/gi, "_").toLowerCase() || "home";
   })();
 
-  const trafficSource = (() => {
+  const cleanTrackingValue = (value, fallback) => {
+    const cleaned = (value || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9_-]+/g, "_")
+      .replace(/^_+|_+$/g, "");
+    return cleaned || fallback;
+  };
+
+  const query = new URLSearchParams(window.location.search);
+  const referrerSource = (() => {
     if(!document.referrer) return "direct";
     try {
       const hostname = new URL(document.referrer).hostname.toLowerCase();
@@ -21,8 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })();
 
+  const trafficSource = cleanTrackingValue(query.get("utm_source"), referrerSource);
+  const campaign = cleanTrackingValue(query.get("utm_campaign"), "general");
+  const creative = cleanTrackingValue(query.get("utm_content"), "unspecified");
+
   document.querySelectorAll('a[href*="hop.clickbank.net"]').forEach((link, index) => {
-    const trackingId = `df_${pageSlug}_${trafficSource}_${index + 1}`.slice(0, 100);
+    const trackingId = `df_${pageSlug}_${trafficSource}_${campaign}_${creative}_${index + 1}`.slice(0, 100);
 
     try {
       const affiliateUrl = new URL(link.href);
@@ -39,6 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
           affiliate_product: pageSlug,
           affiliate_position: index + 1,
           traffic_source: trafficSource,
+          campaign,
+          creative,
           tracking_id: trackingId,
           link_text: link.textContent.trim(),
           page_path: window.location.pathname
